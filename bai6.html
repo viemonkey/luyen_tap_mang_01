@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+//Cach 1 : Dat bien co hieu flag
+//     let arr = [];
+//     let value = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//     let numbers = +prompt("nhap");
+//    let flag = false
+//     for (let i = 0; i < value.length; i++) {
+//         if (numbers == value[i]) {
+//             flag = true
+//         }
+//     }
+//     if(flag){
+//         document.write('in array')
+//     }
+//     else {
+//         document.write('not in array')
+//     }
+
+    //Cach 2 : Dung indexOf
+    let arr=  [];
+    for (let i = 0; i < 10; i++) {
+        let input = +prompt('Nhap so vao mang')
+        arr.push(input)
+    }
+  let V = +prompt('Nhap so can kiem tra')
+   let result = arr.indexOf(V)
+    if(result === -1){
+        alert('not in array')
+    }
+    else {
+        alert('in array')
+    }
+
+</script>
+</body>
+</html>

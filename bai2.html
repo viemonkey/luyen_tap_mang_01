@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let max = 0;
+    let index = 0;
+    let arr = [0, 2, 18, 23, 4, 11, 9, 1, 25, 68];
+    for (let i = 0; i < arr.length; i++) {
+        if (max < arr[i]) {
+            max = arr[i];
+            index = i;
+        }
+    }
+    alert("max " + max + " vi tri " + index);
+</script>
+</body>
+</html>

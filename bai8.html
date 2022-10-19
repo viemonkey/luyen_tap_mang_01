@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let arr = [];
+    for (let i = 0; i < 5; i++) {
+        let a = +prompt("nhap so vao mang");
+        arr.push(a);
+        // arr.sort(); // tang dan
+        arr.sort((a,b) => b - a); // giam dan
+        console.log(arr);
+    }
+
+
+</script>
+</body>
+</html>
